@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ```
 
 ### ⚙️ Step 2: Configure the LLMs
-Before running UFO, you need to provide your LLM configurations. Taking OpenAI as an example, you can configure `ufo/config/config.yaml` file as follows. 
+Before running UFO, you need to provide your LLM configurations. You can configure `ufo/config/config.yaml` file as follows. 
 
 #### OpenAI
 ```
@@ -76,7 +76,7 @@ OPENAI_API_MODEL: "GPTV_MODEL_NAME"  # The only OpenAI model by now that accepts
 #### Azure OpenAI (AOAI)
 ```
 API_TYPE: "aoai" 
-OPENAI_API_BASE: "YOUR_ENDPOINT" # The AOAI API address. Format: https://{your-resource-name}.openai.azure.com/openai/deployments/{deployment-id}/completions?api-version={api-version}
+OPENAI_API_BASE: "YOUR_ENDPOINT" # The AOAI API address. Format: https://{your-resource-name}.openai.azure.com/openai/deployments/{deployment-id}/chat/completions?api-version={api-version}
 OPENAI_API_KEY: "YOUR_API_KEY"  # Set the value to the openai key for the llm model
 OPENAI_API_MODEL: "GPTV_MODEL_NAME"  # The only OpenAI model by now that accepts visual input
 ```
@@ -165,6 +165,15 @@ If you use UFO in your research, please cite our paper:
   year={2024}
 }
 ```
+
+## 📝 Todo List
+- ⏩ Documentation.
+- ⏩ Support local host GUI interaction model.
+- ⏩ Support more control using Win32 API.
+- ⏩ RAG enhanced UFO.
+- ⏩ Chatbox GUI for UFO.
+
+
 
 ## 🎨 Related Project
 You may also find [TaskWeaver](https://github.com/microsoft/TaskWeaver?tab=readme-ov-file) useful, a code-first LLM agent framework for seamlessly planning and executing data analytics tasks.
