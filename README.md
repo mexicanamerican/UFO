@@ -5,12 +5,11 @@
 
 <div align="center">
 
+[![arxiv](https://img.shields.io/badge/Paper-arXiv%20%7C%202402.07939-b31b1b.svg)](https://arxiv.org/abs/2402.07939)&ensp;
 ![Python Version](https://img.shields.io/badge/Python-3776AB?&logo=python&logoColor=white-blue&label=3.10%20%7C%203.11)&ensp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)&ensp;
 ![Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)&ensp;
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/UFO_Agent)](https://twitter.com/intent/follow?screen_name=UFO_Agent)
-
-
 
 </div>
 
